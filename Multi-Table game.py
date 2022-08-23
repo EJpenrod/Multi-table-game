@@ -19,14 +19,15 @@ def times_table_guess():
             print("""
 .___________________.
 |      correct      |
-|___________________|""")
+|___________________|\n*********************""")
             score += 1
         else:
             print("""
 .___________________.
 |     incorrect     |
-|___________________|, the answer is {}\n""".format(solution))
-        print("your score is [{}]\n********************\n".format(score))
+|___________________|
+ the answer is {}\n*********************""".format(solution))
+        print("your score is [{}]\n*********************\n".format(score))
         valid = False
         if score == 20:
             print("""
